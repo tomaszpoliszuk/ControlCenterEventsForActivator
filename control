@@ -1,0 +1,11 @@
+Package: com.tomaszpoliszuk.controlcentereventsforactivator
+Name: Control Center Events for Activator
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 13.0), mobilesubstrate, libactivator
+Description: Events for Activator that let you trigger Activator Listeners when opening or closing Control Center
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Tomasz Poliszuk
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: tomaszpoliszuk
