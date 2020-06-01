@@ -47,9 +47,9 @@ static NSString *ControlCenterClosed = @"Control Center Closed";
 }
 - (NSString *)localizedDescriptionForEventName:(NSString *)eventName {
 	if ([eventName isEqualToString:ControlCenterOpened]) {
-		return @"Open Control Center";
+		return @"Triggered when Control Center is opened";
 	} else if ([eventName isEqualToString:ControlCenterClosed]) {
-		return @"Close Control Center";
+		return @"Triggered when Control Center is closed";
 	}
 	return @" ";
 }
